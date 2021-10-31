@@ -1,0 +1,90 @@
+html,
+body {
+  color: #333333;
+  background-color: #f3efef;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 0.5rem;
+  font-weight: 800;
+}
+/***navigation***
+*.page-container holds 2 flex items:
+* .main-nav (collapsible nav)
+* .main-area (content, flows o the right of the nav)
+*/
+#menu-open {
+  font-size: 1.5rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.page-container {
+  display: flex;
+}
+
+.main-nav {
+  flex: 1 1 auto;
+  width: 0;
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+  list-style-type: none;
+}
+
+.main-nav li {
+  padding: 0.5rem;
+}
+
+#home {
+  display: inline-block;
+  color: #fff;
+}
+
+#closeBtn {
+  display: inline;
+  padding-bottom: 1rem;
+  float: right;
+}
+
+.main-nav a {
+  color: #fff;
+  font-weight: 700;
+}
+
+.main-nav a:link {
+  text-decoration: none;
+}
+
+.main-nav a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+.main-nav a:active {
+  color: #00ff00;
+}
+
+.main-area {
+  padding: 0 0.5rem;
+  flex: 1 1 auto;
+}
+
+/****** general styles *****/
+h2 {
+  font-weight: 800;
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+p {
+  margin: 0 0 1rem 0;
+}
